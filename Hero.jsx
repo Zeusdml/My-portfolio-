@@ -93,10 +93,6 @@ const Hero = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <img 
-                  src={profilePicture} 
-                  alt="John Oyekanmi" 
-                  className="w-full h-full object-cover"
                 /
                 <img
   src="https://placehold.co/400x400/3B82F6/FFFFFF/png"
