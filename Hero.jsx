@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion'
 import { Button } from '@/components/ui/button.jsx'
 import { Download, ArrowDown } from 'lucide-react'
-import profilePicture from '../assets/profile-picture.png'
 
 const Hero = () => {
   const scrollToSection = (sectionId) => {
@@ -98,7 +97,11 @@ const Hero = () => {
                   src={profilePicture} 
                   alt="John Oyekanmi" 
                   className="w-full h-full object-cover"
-                />
+                /<img
+  src="https://placehold.co/400x400/3B82F6/FFFFFF/png"
+  alt="John Oyekanmi"
+  className="w-full h-full object-cover"
+/>
               </motion.div>
               
               {/* Decorative elements */}
