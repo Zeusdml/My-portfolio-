@@ -97,7 +97,8 @@ const Hero = () => {
                   src={profilePicture} 
                   alt="John Oyekanmi" 
                   className="w-full h-full object-cover"
-                /<img
+                /
+                <img
   src="https://placehold.co/400x400/3B82F6/FFFFFF/png"
   alt="John Oyekanmi"
   className="w-full h-full object-cover"
